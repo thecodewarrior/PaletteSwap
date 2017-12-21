@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="TOP_CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thecodewarrior.paletteswap.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <ImageView fx:id="sourcePalette" fitHeight="150.0" fitWidth="200.0" onDragDropped="#sourcePaletteDragDropped" onDragOver="#sourcePaletteDragOver" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@assets/fileSlot.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin></ImageView>
+      <ImageView fx:id="destPalette" fitHeight="150.0" fitWidth="200.0" onDragDropped="#destPaletteDragDropped" onDragOver="#destPaletteDragOver" pickOnBounds="true" preserveRatio="true" smooth="false" GridPane.columnIndex="1">
+         <image>
+            <Image url="@assets/fileSlot.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin></ImageView>
+      <Label alignment="CENTER" text="Source Palette" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="Destination Palette" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <ImageView fx:id="sourceFiles" fitHeight="150.0" fitWidth="200.0" onDragDropped="#sourceFilesDragDropped" onDragOver="#sourceFilesDragOver" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <image>
+            <Image url="@assets/fileSlot.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin></ImageView>
+      <ImageView fx:id="destFolder" fitHeight="150.0" fitWidth="200.0" onDragDropped="#destFolderDragDropped" onDragOver="#destFolderDragOver" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <image>
+            <Image url="@assets/fileSlot.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin></ImageView>
+      <Label text="Source(s)" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label text="Destination Folder" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Button fx:id="convertButton" mnemonicParsing="false" onAction="#convertClicked" text="Convert" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+   </children>
+</GridPane>
