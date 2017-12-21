@@ -2,11 +2,176 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaFXApp" />
+      <artifact name="PaletteSwap" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/PaletteSwap.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jnlp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp.jnlp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/JavaFXApp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/JavaFXApp.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/JavaFXApp.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/kotlin-reflect.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/kotlin-stdlib-jdk7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/kotlin-stdlib-jdk8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/kotlin-stdlib.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/app/kotlin-test.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/libpackager.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/ASSEMBLY_EXCEPTION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/THIRD_PARTY_README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/jli/libjli.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/jvm.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/jvm.cfg-default" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libattach.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libavplugin.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libawt.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libawt_headless.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libawt_xawt.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libdecora_sse.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libdt_socket.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libfontmanager.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libfxplugins.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libglass.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libgstreamer-lite.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libhprof.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libicedtea-sound.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libinstrument.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libj2gss.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libj2pcsc.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libj2pkcs11.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjaas_unix.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjava.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjava_crw_demo.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavafx_font.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavafx_font_freetype.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavafx_font_pango.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavafx_iio.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavajpeg.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjavalcms.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjawt.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjdwp.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjfxmedia.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjfxwebkit.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjsdt.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjsig.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjsound.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libjsoundalsa.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libmanagement.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libmlib_image.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libnet.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libnio.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libnpt.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libprism_common.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libprism_es2.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libprism_sw.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libsaproc.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libsctp.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libsplashscreen.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libsunec.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libunpack.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libverify.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/libzip.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/server/Xusage.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/server/classes.jsa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/amd64/server/libjvm.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/calendars.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/charsets.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/classlist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/cmm/CIEXYZ.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/cmm/GRAY.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/cmm/LINEAR_RGB.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/cmm/PYCC.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/cmm/sRGB.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/content-types.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/currency.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/cldrdata.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/dnsns.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/icedtea-sound.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/jaccess.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/jfxrt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/localedata.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/nashorn.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/sunec.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/sunjce_provider.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/sunpkcs11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/ext/zipfs.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/flavormap.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/hijrah-config-umalqura.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/cursors.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/invalid32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_CopyDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_CopyNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_LinkDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_LinkNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_MoveDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/images/cursors/motif_MoveNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jar.binfmt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/javafx.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jce.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jexec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jfxswt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jsse.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/jvm.hprof.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/logging.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/management-agent.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/meta-index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/net.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/psfont.properties.ja" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/psfontj2d.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/resources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/rt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/security/policy/limited/US_export_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/security/policy/limited/local_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/security/policy/unlimited/US_export_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/security/policy/unlimited/local_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/sound.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/swing.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/lib/tzdb.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/java.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/jjs.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/keytool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/orbd.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/pack200.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/policytool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/rmid.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/rmiregistry.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/servertool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/tnameserv.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/ja_JP.UTF-8/man1/unpack200.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/java.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/jjs.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/keytool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/orbd.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/pack200.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/policytool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/rmid.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/rmiregistry.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/servertool.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/tnameserv.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/JavaFXApp/runtime/man/man1/unpack200.1.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/PaletteSwap.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/javafxapp-1.0.deb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/kotlin-reflect.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/kotlin-stdlib-jdk7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/kotlin-stdlib-jdk8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/kotlin-stdlib.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/bundles/kotlin-test.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/kotlin-reflect.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/kotlin-stdlib-jdk7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/kotlin-stdlib-jdk8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/kotlin-stdlib.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaFXApp/kotlin-test.jar" afterPath="" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,11 +228,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="400">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaletteSwap.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/artifacts/PaletteSwap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,7 +263,7 @@
       <file leaf-file-name="Controller.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Controller.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="320">
               <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#36#410#0" expanded="true" />
@@ -88,7 +275,7 @@
       <file leaf-file-name="Converter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/Converter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="528">
               <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#46#92#0" expanded="true" />
@@ -100,7 +287,7 @@
       <file leaf-file-name="ImageConversion.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/ImageConversion.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="224">
               <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="e#46#200#0" expanded="true" />
@@ -112,7 +299,7 @@
       <file leaf-file-name="PaletteSwap.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/PaletteSwap.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="128">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#46#166#0" expanded="true" />
@@ -145,6 +332,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -162,6 +352,8 @@
         <option value="$PROJECT_DIR$/src/sample/converter/ImageConversion.kt" />
         <option value="$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/ImageConversion.kt" />
         <option value="$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt" />
+        <option value="$PROJECT_DIR$/paletteswap.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -177,6 +369,7 @@
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -196,13 +389,47 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,6 +445,11 @@
             </path>
             <path>
               <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PaletteSwap" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PaletteSwap" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -229,6 +461,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +479,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="paletteswap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar!/" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -392,28 +630,30 @@
       <workItem from="1513752979071" duration="355000" />
       <workItem from="1513753376558" duration="5549000" />
       <workItem from="1513835800590" duration="3892000" />
+      <workItem from="1513840201700" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11580000" />
+    <option name="totallyTimeSpent" value="14461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -453,7 +693,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Controller.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#36#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/ImageConversion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#46#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/Converter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#46#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/PaletteSwap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/DialogException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,21 +778,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="896">
           <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,21 +809,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,33 +840,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Controller.kt">
@@ -577,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Controller.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="320">
           <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#36#410#0" expanded="true" />
@@ -595,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/PaletteSwap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="128">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#46#166#0" expanded="true" />
@@ -607,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,13 +920,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/Converter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="528">
           <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="e#46#92#0" expanded="true" />
@@ -633,108 +937,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="443" column="19" lean-forward="false" selection-start-line="443" selection-start-column="19" selection-end-line="443" selection-end-column="19" />
-          <folding>
-            <marker date="1509141854000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1509141854000" expanded="false" signature="131:516" ph="..." />
-            <marker date="1509141854000" expanded="true" signature="1248:1460" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="1487:1498" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="1523:1529" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="1571:1638" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1681:1858" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="1889:2101" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2145:2682" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="2724:3257" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="3285:4795" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="4825:5003" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="5035:5350" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="5384:5503" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="5532:5543" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="5560:5566" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="5599:5610" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="5637:5643" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="5680:5691" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="5715:5721" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="5757:5864" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="5922:6098" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="6154:6262" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="6326:6646" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="6652:6670" ph="/**...*/" />
-            <marker date="1509141854000" expanded="true" signature="6739:6965" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="6990:7382" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="7413:7625" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="7657:7870" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="7900:8191" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="8226:8517" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="8547:8838" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="8870:9161" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="9194:9408" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="9435:9639" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="9695:10012" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="10042:10248" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="10281:10516" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="10545:10746" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="10794:11237" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="11269:11622" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="11673:12221" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="12268:12844" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="12873:13087" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="13117:13580" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="13621:13999" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="14047:14408" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="14443:14653" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="14714:14941" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="14987:14998" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="15034:15040" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="15101:15328" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="15374:15385" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="15421:15427" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="15490:15717" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="15765:15776" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="15814:15820" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="15854:16066" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="16104:16115" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="16137:16143" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="16177:16467" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="16500:16790" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="16825:17115" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="17211:18359" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="18444:18506" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="18543:18554" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="18584:18590" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="18631:18795" ph="{...}" />
-            <marker date="1509141854000" expanded="false" signature="18822:18833" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="18858:18864" ph=" }" />
-            <marker date="1509141854000" expanded="false" signature="18894:18905" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="18927:18933" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="19021:19102" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="19212:19638" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="19665:20020" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="20033:20600" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="20641:21769" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="20880:20891" ph="{}" />
-            <marker date="1509141854000" expanded="false" signature="20923:20938" ph=" { " />
-            <marker date="1509141854000" expanded="false" signature="20952:20962" ph=" }" />
-            <marker date="1509141854000" expanded="true" signature="21053:21763" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="21806:21889" ph="{...}" />
-            <marker date="1509141854000" expanded="true" signature="21872:21883" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/converter/ImageConversion.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="224">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="e#46#200#0" expanded="true" />
@@ -742,10 +961,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/paletteswap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="131" column="135" lean-forward="true" selection-start-line="131" selection-start-column="135" selection-end-line="131" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/kotlinc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/thecodewarrior/paletteswap/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="400">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/PaletteSwap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -756,7 +1009,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
+          <last-edited>PaletteSwap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
