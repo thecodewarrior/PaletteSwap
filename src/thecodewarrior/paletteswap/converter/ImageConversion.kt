@@ -9,6 +9,15 @@ import java.awt.image.ColorModel
 class ImageConversion(val file: File, val containing: File) {
 
     fun convert(swap: PaletteSwap, output: File) {
+
+        val outputFile = File(output.path, file.relativeTo(containing).path)
+        outputFile.parentFile.mkdirs()
+
+        if(file.extension != "png") {
+            file.copyTo(outputFile, overwrite = true)
+            return
+        }
+
         val image = ImageIO.read(file)
 
         (0 until image.width).forEach { x ->
@@ -18,8 +27,6 @@ class ImageConversion(val file: File, val containing: File) {
             }
         }
 
-        val outputFile = File(output.path, file.relativeTo(containing).path)
-        outputFile.parentFile.mkdirs()
 
         ImageIO.write(image, "png", outputFile)
     }
